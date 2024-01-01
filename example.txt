@@ -1,1 +1,14 @@
-"Hello, this is an example file." 
+Assignment 1
+1.Concepts of Git
+Git is a distributed version control system for tracking code changes in software development. Repositories, or repos, store files and their version history locally or remotely. Commits capture snapshots of the code at specific points, reflecting changes made. Branches provide parallel versions for isolated development, commonly used for features or bug fixes. Merging combines changes from one branch into another, typically post feature completion and testing. Pull Requests (PR) propose changes, allowing team review before merging into the main branch. Cloning copies a remote repo to the local machine. Forking creates a personal copy for independent changes. Merge conflicts arise when Git cannot auto-merge changes, requiring manual resolution.
+
+2.Write basic commands of git. 
+
+To initialize a new Git repository : git init
+To clone a remote repository to your local machine : git clone <repo>
+To add changes to the staging area : git add <file>
+To Commit changes to the repository with a descriptive message : git commit -m "message"
+To Show the status of changes as untracked, modified, or staged: git status
+To merge changes from one branch into the current branch : git merge <branch>
+To fetch changes from a remote repository and merges them into the current branch : git pull
+To push changes from your local repository to a remote repository :git push
